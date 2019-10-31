@@ -1089,11 +1089,11 @@ id bottom
 id btn_apply
 id btn_cancel
 id btn_exit
+id btn_onBackPress
 id btn_records
 id btn_settings
 id btn_start
 id button
-id button4
 id buttonPanel
 id center
 id center_horizontal

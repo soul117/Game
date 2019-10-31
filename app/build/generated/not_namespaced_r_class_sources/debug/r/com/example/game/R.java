@@ -5311,11 +5311,11 @@ public final class R {
     public static final int btn_apply=0x7f080025;
     public static final int btn_cancel=0x7f080026;
     public static final int btn_exit=0x7f080027;
-    public static final int btn_records=0x7f080028;
-    public static final int btn_settings=0x7f080029;
-    public static final int btn_start=0x7f08002a;
-    public static final int button=0x7f08002b;
-    public static final int button4=0x7f08002c;
+    public static final int btn_onBackPress=0x7f080028;
+    public static final int btn_records=0x7f080029;
+    public static final int btn_settings=0x7f08002a;
+    public static final int btn_start=0x7f08002b;
+    public static final int button=0x7f08002c;
     public static final int buttonPanel=0x7f08002d;
     public static final int center=0x7f08002e;
     public static final int center_horizontal=0x7f08002f;
