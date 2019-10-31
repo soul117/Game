@@ -1,0 +1,75 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.example.game"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="19"
+9-->C:\Dev\Game\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->C:\Dev\Game\app\src\main\AndroidManifest.xml
+11
+12    <dist:module dist:instant="true" />
+12-->C:\Dev\Game\app\src\main\AndroidManifest.xml:7:5-40
+12-->C:\Dev\Game\app\src\main\AndroidManifest.xml:7:18-37
+13
+14    <application
+14-->C:\Dev\Game\app\src\main\AndroidManifest.xml:9:5-41:19
+15        android:allowBackup="true"
+15-->C:\Dev\Game\app\src\main\AndroidManifest.xml:10:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.0.1] C:\Users\Александр\.gradle\caches\transforms-2\files-2.1\46da25c3e2ae6308b2227b660caa604d\core-1.0.1\AndroidManifest.xml:22:18-86
+17        android:debuggable="true"
+18        android:hardwareAccelerated="true"
+18-->C:\Dev\Game\app\src\main\AndroidManifest.xml:13:9-43
+19        android:icon="@drawable/play"
+19-->C:\Dev\Game\app\src\main\AndroidManifest.xml:14:9-38
+20        android:label="@string/app_name"
+20-->C:\Dev\Game\app\src\main\AndroidManifest.xml:14:39-71
+21        android:supportsRtl="true"
+21-->C:\Dev\Game\app\src\main\AndroidManifest.xml:11:9-35
+22        android:theme="@style/AppTheme" >
+22-->C:\Dev\Game\app\src\main\AndroidManifest.xml:12:9-40
+23        <activity
+23-->C:\Dev\Game\app\src\main\AndroidManifest.xml:17:9-25:20
+24            android:name="activities.MainActivity"
+24-->C:\Dev\Game\app\src\main\AndroidManifest.xml:18:13-51
+25            android:screenOrientation="portrait" >
+25-->C:\Dev\Game\app\src\main\AndroidManifest.xml:19:13-49
+26            <intent-filter>
+26-->C:\Dev\Game\app\src\main\AndroidManifest.xml:20:13-24:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Dev\Game\app\src\main\AndroidManifest.xml:21:17-69
+27-->C:\Dev\Game\app\src\main\AndroidManifest.xml:21:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Dev\Game\app\src\main\AndroidManifest.xml:23:17-77
+29-->C:\Dev\Game\app\src\main\AndroidManifest.xml:23:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->C:\Dev\Game\app\src\main\AndroidManifest.xml:26:9-30:20
+33            android:name="activities.GameActivity"
+33-->C:\Dev\Game\app\src\main\AndroidManifest.xml:27:13-51
+34            android:screenOrientation="portrait" >
+34-->C:\Dev\Game\app\src\main\AndroidManifest.xml:28:13-49
+35        </activity>
+36        <activity
+36-->C:\Dev\Game\app\src\main\AndroidManifest.xml:31:9-35:20
+37            android:name="activities.RecordsActivity"
+37-->C:\Dev\Game\app\src\main\AndroidManifest.xml:32:13-54
+38            android:screenOrientation="portrait" >
+38-->C:\Dev\Game\app\src\main\AndroidManifest.xml:33:13-49
+39        </activity>
+40        <activity
+40-->C:\Dev\Game\app\src\main\AndroidManifest.xml:36:9-40:20
+41            android:name="activities.SettingsActivity"
+41-->C:\Dev\Game\app\src\main\AndroidManifest.xml:37:13-55
+42            android:screenOrientation="portrait" >
+42-->C:\Dev\Game\app\src\main\AndroidManifest.xml:38:13-49
+43        </activity>
+44    </application>
+45
+46</manifest>
